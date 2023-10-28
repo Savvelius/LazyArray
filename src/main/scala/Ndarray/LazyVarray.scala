@@ -3,6 +3,7 @@ package Ndarray
 import scala.collection.mutable.ArrayBuffer
 
 class LazyVarray:
+  // can be replaced with a single expression that later will be updated
   private var exprs: ArrayBuffer[Expr] = ArrayBuffer()
 
   import Expr.*
